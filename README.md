@@ -20,13 +20,6 @@
 
 主要用于一加及其他机型一键 ROOT。支持 Magisk、Alpha、kitsune、APatch、KernelSU、Kernel-Next、SukiSU Ultra、ReSukiSU 等目前所有主流 ROOT 方式。
 
-## 功能
-
-- 一键 ROOT
-- Bootloader 解锁
-- 深度测试工具
-- 系统维护与优化
-
 ## 下载
 
 前往 [Releases](https://github.com/daxiaamu/oplusmutools/releases) 下载最新版本。
@@ -50,3 +43,4 @@
 ## 远程刷机救砖
 
 远程刷机救砖，请认准作者本人大侠阿木：[120.oplus.icu](https://120.oplus.icu)
+
