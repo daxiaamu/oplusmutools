@@ -13,13 +13,10 @@
 # 一加全能工具箱
 
 **作者：** [大侠阿木](https://github.com/daxiaamu)
-
 **官网：** [optool.daxiaamu.com](https://optool.daxiaamu.com)
+**自用机场推荐：**[免费领取5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)
 
 </div>
-
-<p align="center">自用机场推荐：[免费领取5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)</p>
-
 ---
 
 ## 简介
