@@ -5,9 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-21.2-brightgreen" alt="版本">
+  <img src="https://img.shields.io/badge/版本-21.2(2025.10.31)-brightgreen" alt="版本">
   <img src="https://img.shields.io/badge/平台-Windows-blue" alt="平台">
-  <img src="https://img.shields.io/badge/Release-v21.2-blue" alt="Release">
 </p>
 
 **作者：** [大侠阿木](https://github.com/daxiaamu)
