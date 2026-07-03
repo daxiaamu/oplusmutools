@@ -18,7 +18,7 @@
 
 </div>
 
-<p align="center">鑷敤鏈哄満鎺ㄨ崘锛?a href="https://skygo1403.top/?page=register&amp;invite=EBgPKeZX">棰嗗彇5鍏冧紭鎯犲埜</a>锛?/p>
+<p align="center">自用机场推荐（[免费领取5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)）</p>
 
 ---
 
