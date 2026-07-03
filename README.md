@@ -4,10 +4,6 @@
   <img src="https://img.shields.io/badge/版本-21.2-brightgreen" alt="版本">
   <img src="https://img.shields.io/badge/平台-Windows-blue" alt="平台">
   <img src="https://img.shields.io/github/v/release/daxiaamu/oplusmutools" alt="Release">
-  <img src="https://img.shields.io/github/downloads/daxiaamu/oplusmutools/total" alt="下载量">
-  <img src="https://img.shields.io/github/stars/daxiaamu/oplusmutools" alt="Stars">
-  <img src="https://img.shields.io/github/last-commit/daxiaamu/oplusmutools" alt="最后更新">
-  <img src="https://img.shields.io/badge/许可证-MIT-green" alt="许可证">
 </p>
 
 **作者：** [大侠阿木](https://github.com/daxiaamu)
@@ -54,7 +50,3 @@
 ## 免责声明
 
 刷机有风险，操作需谨慎。本工具仅供学习研究使用，作者不对任何设备损坏负责。
-
-## 许可证
-
-MIT
