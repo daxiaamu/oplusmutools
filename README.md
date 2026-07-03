@@ -30,7 +30,7 @@
 
 ## 更新日志
 
-详见官网：[https://optool.daxiaamu.com/wiki_pctool#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97](https://optool.daxiaamu.com/wiki_pctool#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+详见[官网更新日志](https://optool.daxiaamu.com/wiki_pctool#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ## 免责声明
 
@@ -39,5 +39,6 @@
 ## 远程刷机救砖
 
 远程刷机救砖，请认准作者本人大侠阿木：[120.oplus.icu](https://120.oplus.icu)
+
 
 
