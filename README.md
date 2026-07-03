@@ -18,7 +18,7 @@
 
 </div>
 
-<p align="center">自用机场推荐（[免费领取5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)）</p>
+<p align="center">自用机场推荐：[免费领取5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)</p>
 
 ---
 
