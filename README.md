@@ -33,15 +33,7 @@
 
 ## 更新日志
 
-### v21.2
-
-- 新增一加 15 系列支持
-- 优化解锁流程
-- 修复已知问题
-
-### v21.1
-
-- 初始版本发布
+详见官网：[https://optool.daxiaamu.com](https://optool.daxiaamu.com)
 
 ## 免责声明
 
