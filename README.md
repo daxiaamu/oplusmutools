@@ -18,6 +18,8 @@
 
 </div>
 
+<p align="center">鑷敤鏈哄満鎺ㄨ崘锛?a href="https://skygo1403.top/?page=register&amp;invite=EBgPKeZX">棰嗗彇5鍏冧紭鎯犲埜</a>锛?/p>
+
 ---
 
 ## 简介
@@ -43,3 +45,4 @@
 ## 远程刷机救砖
 
 远程刷机救砖，请认准作者本人大侠阿木：[120.oplus.icu](https://120.oplus.icu)
+
