@@ -12,9 +12,9 @@
 
 # 一加全能工具箱
 
-**作者：大侠阿木：** 
+**作者：** 大侠阿木
 
-**一加全能工具箱官网**[optool.daxiaamu.com](https://optool.daxiaamu.com)
+**一加全能工具箱官网：**[optool.daxiaamu.com](https://optool.daxiaamu.com)
 
 **自用机场推荐：**[免费领取5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)
 
