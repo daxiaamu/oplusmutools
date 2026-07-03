@@ -14,13 +14,12 @@
 
 ## 简介
 
-一加全能工具箱是一款专为一加手机设计的 Windows 端综合工具，提供刷机、解锁、ROOT 等一站式服务。
+主要用于一加及其他机型一键 ROOT。支持 Magisk、Alpha、kitsune、APatch、KernelSU、Kernel-Next、SukiSU Ultra、ReSukiSU 等目前所有主流 ROOT 方式。
 
 ## 功能
 
-- 一键解锁 Bootloader
-- 刷入 Recovery / 刷机
-- ROOT 权限管理
+- 一键 ROOT
+- Bootloader 解锁
 - 深度测试工具
 - 系统维护与优化
 
@@ -49,4 +48,4 @@
 
 ## 免责声明
 
-刷机有风险，操作需谨慎。本工具仅供学习研究使用，作者不对任何设备损坏负责。
+本工具仅供学习研究使用，作者不对任何设备损坏负责。
