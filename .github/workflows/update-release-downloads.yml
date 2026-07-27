@@ -1,0 +1,98 @@
+name: Update release download statistics
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-download-statistics
+  cancel-in-progress: false
+
+jobs:
+  update-statistics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Collect release download statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          releases_file="$(mktemp)"
+          statistics_file="$(mktemp)"
+
+          gh api \
+            --paginate \
+            "repos/${GITHUB_REPOSITORY}/releases?per_page=100" \
+            --jq '.[]' > "${releases_file}"
+
+          jq -s \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg generated_at "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+            '
+              map(
+                select(.draft == false)
+                | {
+                    tag_name,
+                    name,
+                    prerelease,
+                    published_at,
+                    html_url,
+                    total_downloads: ([.assets[].download_count] | add // 0),
+                    assets: [
+                      .assets[]
+                      | {
+                          name,
+                          size,
+                          download_count,
+                          browser_download_url
+                        }
+                    ]
+                  }
+              ) as $releases
+              | {
+                  repository: $repository,
+                  generated_at: $generated_at,
+                  total_downloads: ([$releases[].total_downloads] | add // 0),
+                  releases: $releases
+                }
+            ' "${releases_file}" > "${statistics_file}"
+
+          if [[ -f release-downloads.json ]]; then
+            old_normalized="$(mktemp)"
+            new_normalized="$(mktemp)"
+            jq -S 'del(.generated_at)' release-downloads.json > "${old_normalized}"
+            jq -S 'del(.generated_at)' "${statistics_file}" > "${new_normalized}"
+
+            if cmp -s "${old_normalized}" "${new_normalized}"; then
+              echo "Release download statistics have not changed."
+              exit 0
+            fi
+          fi
+
+          mv "${statistics_file}" release-downloads.json
+
+      - name: Commit updated statistics
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain -- release-downloads.json)" ]]; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add release-downloads.json
+          git commit -m "chore: update release download statistics"
+          git push
