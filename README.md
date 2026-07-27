@@ -16,7 +16,7 @@
 
 **一加全能工具箱官网：**[optool.daxiaamu.com](https://optool.daxiaamu.com)
 
-**自用机场推荐：**[注册领免费5G流量](https://skygo1403.top/?page=register&amp;invite=EBgPKeZX)
+**自用机场推荐：**[白月光]([https://skygo1403.top/?page=register&amp;invite=EBgPKeZX](https://www.sibker.com/register?invite_code=2XQR1UUz))
 
 </div>
 
