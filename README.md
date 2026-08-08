@@ -5,6 +5,8 @@
 <p align="center">
 
   <img src="https://img.shields.io/badge/平台-Windows-blue" alt="平台">
+  <a href="https://github.com/daxiaamu/oplusmutools/releases/latest"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaxiaamu%2Foplusmutools%2Fmain%2F.github%2Fbadges%2Fversion.json" alt="最新版本"></a>
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdaxiaamu%2Foplusmutools%2Fmain%2F.github%2Fbadges%2Fupdate-date.json" alt="更新日期">
 </p>
 
 <div align="center">
