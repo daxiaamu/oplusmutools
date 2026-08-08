@@ -3,8 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-21.2-brightgreen" alt="版本">
-  <img src="https://img.shields.io/badge/日期-2025.10.31-yellow" alt="日期">
+
   <img src="https://img.shields.io/badge/平台-Windows-blue" alt="平台">
 </p>
 
