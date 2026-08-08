@@ -1,0 +1,48 @@
+name: Update APK download links
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Server/**/*.apk"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk-download-links
+  cancel-in-progress: true
+
+jobs:
+  update-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate APK links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/generate_apk_links.py --commit "$(git rev-parse HEAD)"
+
+      - name: Commit updated links
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain -- Server/links.md)" ]]; then
+            echo "APK download links are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Server/links.md
+          git commit -m "chore: update APK download links"
+          git push
