@@ -1,7 +1,7 @@
 {
   "repository": "daxiaamu/oplusmutools",
-  "generated_at": "2026-10-05T07:07:15Z",
-  "total_downloads": 2079,
+  "generated_at": "2026-10-06T07:36:45Z",
+  "total_downloads": 2119,
   "releases": [
     {
       "tag_name": "V22.0",
@@ -9,12 +9,12 @@
       "prerelease": false,
       "published_at": "2026-07-07T18:24:15Z",
       "html_url": "https://github.com/daxiaamu/oplusmutools/releases/tag/V22.0",
-      "total_downloads": 1704,
+      "total_downloads": 1743,
       "assets": [
         {
           "name": "OplusMuTols_v22.0.exe",
           "size": 66898408,
-          "download_count": 1704,
+          "download_count": 1743,
           "browser_download_url": "https://github.com/daxiaamu/oplusmutools/releases/download/V22.0/OplusMuTols_v22.0.exe"
         }
       ]
@@ -25,12 +25,12 @@
       "prerelease": false,
       "published_at": "2026-07-03T22:39:44Z",
       "html_url": "https://github.com/daxiaamu/oplusmutools/releases/tag/v21.2",
-      "total_downloads": 375,
+      "total_downloads": 376,
       "assets": [
         {
           "name": "OplusMuTools_v21.2.exe",
           "size": 90092968,
-          "download_count": 375,
+          "download_count": 376,
           "browser_download_url": "https://github.com/daxiaamu/oplusmutools/releases/download/v21.2/OplusMuTools_v21.2.exe"
         }
       ]
